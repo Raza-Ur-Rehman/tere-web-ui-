@@ -3,29 +3,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "gilroy", sans-serif;
+}
+body {
   background-color: #f9f9f9;
 }
-#navbar {
-  display: flex;
-  font-family: "gilroy", sans-serif;
-  height: 174px;
-  color: #ffffff;
+.p-rela {
   position: relative;
 }
-#nav-logo {
+.p-abso {
   position: absolute;
+}
+.flex {
+  display: flex;
+}
+#navbar {
+  width: auto;
+  height: 140px;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+#nav-logo {
   width: 180px;
   height: 51px;
-  top: 85px;
+  top: 50px;
   left: 80px;
 }
 #nav-list {
-  position: absolute;
   display: flex;
   height: 21px;
-  top: 102px;
+  top: 80px;
   left: 771px;
-  gap: 70px;
+  gap: 45px;
   list-style: none;
 }
 #nav-list li a {
@@ -36,15 +45,15 @@
   line-height: 20.82px;
 }
 #nav-btn {
-  position: absolute;
   width: 182px;
   height: 50px;
-  top: 87px;
-  left: 1278px;
+  top: 55px;
+  left: 1178px;
   border-radius: 6px;
   background-color: #75bf7a;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 #nav-btn a {
   font-size: 22px;
@@ -53,4 +62,110 @@
   text-decoration: none;
   color: #ffffff;
   background-color: #75bf7a;
+}
+#title {
+  font-size: 66px;
+  font-weight: 800;
+  line-height: 65px;
+  top: 150px;
+  left: 80px;
+}
+#discription {
+  color: #9e9da2;
+  width: 550px;
+  height: 120px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  top: 380px;
+  left: 80px;
+}
+#header-banner {
+  width: 553px;
+  height: 582px;
+  top: 100px;
+  left: 744px;
+}
+.download-btn {
+  width: 260px;
+  height: 67px;
+  top: 610px;
+  left: 80px;
+  border-radius: 5px;
+}
+#download-btn2 {
+  left: 370px;
+}
+#apply-box {
+  width: 1280px;
+  height: 166px;
+  top: 775px;
+  left: 80px;
+  border-radius: 10px;
+  background-color: #75bf7a;
+}
+.form-text {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+  top: 65px;
+  left: 52px;
+  color: #ffffff;
+}
+.input-box {
+  width: 500px;
+  height: 67px;
+  top: 60px;
+  left: 430px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  color: #dadada;
+}
+input {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.atd-btn {
+  width: 260px;
+  height: 67px;
+  top: 60px;
+  left: 950px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #000000;
+}
+.atd-btn a {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ffffff;
+  text-decoration: none;
+}
+#sub-title {
+  font-size: 47px;
+  top: 1191px;
+  left: 518px;
+  font-weight: 800;
+  line-height: 50px;
+  color: #000000;
+  text-transform: uppercase;
+}
+#sub-title span {
+  color: #75bf7a;
+}
+#title-text {
+  width: 600px;
+  height: 96px;
+  top: 1267px;
+  left: 410px;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #9e9da2;
+  text-align: center;
 }

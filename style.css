@@ -8,6 +8,7 @@
 body {
   background-color: #f9f9f9;
 }
+/* classes */
 .p-rela {
   position: relative;
 }
@@ -17,6 +18,16 @@ body {
 .flex {
   display: flex;
 }
+.jc-center {
+  justify-content: center;
+}
+.a-i-c {
+  align-items: center;
+}
+.f-d-c {
+  flex-direction: column;
+}
+/* -----navbar----- */
 #navbar {
   width: auto;
   height: 140px;
@@ -63,6 +74,7 @@ body {
   color: #ffffff;
   background-color: #75bf7a;
 }
+/* ----page header-----  */
 #title {
   font-size: 66px;
   font-weight: 800;
@@ -96,6 +108,7 @@ body {
 #download-btn2 {
   left: 370px;
 }
+/* -----driver apply box----- */
 #apply-box {
   width: 1280px;
   height: 166px;
@@ -146,6 +159,7 @@ input {
   color: #ffffff;
   text-decoration: none;
 }
+/* ----page hrader 2---- */
 #sub-title {
   font-size: 47px;
   top: 1191px;
@@ -169,3 +183,28 @@ input {
   color: #9e9da2;
   text-align: center;
 }
+.box {
+  width: 100%;
+  height: auto;
+  top: 1450px;
+  background-color: #ee1515;
+  justify-content: center;
+}
+.col {
+  background-color: aqua;
+  width: 30%;
+}
+.icon {
+  width: 61px;
+  height: 61px;
+}
+
+#circle {
+  width: 400px;
+  height: 400px;
+  top: 1506px;
+  left: 520px;
+  background-color: #75bf7a;
+  border-radius: 50%;
+}
+
